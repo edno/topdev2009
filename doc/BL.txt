@@ -1,0 +1,39 @@
+td00808 - edno & dmn.mth@gmail.com (login amen : td00932) - Bon de livraison
+
+Livraison le 29 mars 2009 à 23H59
+
+Bon de livraison de l'application de gestion de fichiers.
+
+Fonctionnalités présentes :
+
+Gestion des interprètes (Classement option 1, Ajout, Modification, Suppression)
+
+Gestion des titres (Classement option 1, Ajout, Modification, Suppression)
+
+Édition / suppression des interprètes d'un titre
+
+Édition de l'interprète original
+
+Import massif par fichier csv et log des actions réalisées au cours de l'import (fichier et retour écran)
+
+Chargement de fichier - Analyse du nom de fichier - Proposition de saisie / qualification
+
+Historique des fichiers chargés
+
+Moteur de recherche avec les fonctions suivantes :
+- Filtre des espacements
+- Filtre de l'encodage
+- Tolérances de fautes
+- Pertinence des résultats
+- Gestion de tolérance de fautes
+
+Divers :
+Page d'accueil html pour sélection de l'utilisateur
+Gestion du profil (statique)
+
+Remarques / limitations :
+
+
+
+
+Gregory Heitz et Damien Mathieu

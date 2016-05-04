@@ -1,0 +1,158 @@
+html {
+	font-size: 100%;
+}
+body {
+	background: #e2e2e2;
+	margin : 0;
+	padding : 0;
+	font : 0.9em Verdana, Arial, Helvetica, sans-serif;
+}
+
+#accueil {
+	margin-top: 20%;
+	text-align : center;
+}
+
+#global {
+	width : 98%;
+	margin : 1% auto;
+	padding: 0;
+	background-color: #a6c704;
+}
+
+#bandeau {
+	height : 100px;
+	margin : 0;
+	padding: 0;
+	text-align : center;
+	background-color: #85972f;
+}
+
+#menugauche {
+	float : left;
+	width : 20%;
+	margin : 0;
+	padding : 0;
+	background-color: #a6c704;
+}
+.menu {
+	list-style-type : circle;
+	margin : 0;
+	padding : 5px 10px 10px 10px;
+}
+.menu li {
+	margin : 5px 0 0 15px;
+	padding : 0;
+}
+
+#contenu {
+	margin : 0 0 0 20%;
+	background-color: #f7fdd6;
+	padding: 10px;
+	border-left : 2px dotted;
+	min-height: 400px;
+}
+
+#feedback {
+	margin : 5px;
+	background-color: #d3e9fc;
+	padding: 10px;
+}
+
+#pied {
+	clear : both;
+	margin : 0;
+	padding : 5px 0;
+	text-align : center;
+	background-color : #85972e;
+}
+
+.center {
+	text-align : center;
+}
+
+p {
+	margin : 5px 0 5px 5px;
+	line-height : 2em;
+}
+
+a {
+	color: darkblue;
+	text-decoration: none;
+}
+a:hover {
+	color: darkred;
+	text-decoration: underline overline;
+}
+
+table {
+	border-collapse: collapse; 
+	background-color: white;
+	width : 100%;
+}
+thead, th {
+	background-color: #e3fb6e;
+}
+td, th {
+	border: 1px solid black;
+	padding: 5px;
+}
+tr.ligne { 
+	color: gray;
+}
+tr.ligne_over {
+	color: white;
+	background-color: #a6c704;
+	cursor: default;
+}
+
+img {
+	border : 0;
+}
+legend {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	border: #CCC 1px solid;
+	font-size: 1.2em;
+	background-color : #eff2df
+}
+fieldset {
+	padding: 10px;
+	margin: 20px;
+	background-color : #eff2df
+}
+
+.box-info, .box-erreur, .box-succes, .box-result, .box-result_over 
+{
+    border: solid 1px;
+    padding: 4px;
+	margin: 4px;
+    text-align:left;
+}
+.box-erreur
+{
+    background: #FFA07A;
+    color: #B22222;
+}
+.box-info
+{
+    background: #FEEFB3;
+    color: #9F6000;
+}
+.box-succes
+{
+    background: #DFF2BF;
+    color: #4F8A10;
+}
+.box-result
+{
+    background: #E0DFE3;
+    color: darkblue;
+}
+.box-result_over
+{
+    background: #DFF2BF;
+    color: #4F8A10;
+	cursor: pointer;	
+}
